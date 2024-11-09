@@ -5,6 +5,7 @@ import './App.css'
 import Counter from './Counter'
 import CounterHOC from './HOC/CounterUsingHOC';
 import Things from './HOC/thingCounter'
+import CounterRenderProps from './RenderProps/Counter'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Counter initialVal={10} /> 
       <CounterHOC color="pink"/>
       <Things /> 
+      <CounterRenderProps />
     </>
   )
 }
