@@ -12,7 +12,7 @@ function App() {
     <>
       <Counter color="purple" initialVal={10} />  
       <Counter initialVal={10} /> 
-      <CounterHOC />
+      <CounterHOC color="pink"/>
       <Things /> 
     </>
   )
